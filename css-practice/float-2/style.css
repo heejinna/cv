@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #000;
+  background-color: #e5e5e5;
   height: 100vh;
   font-family: "Noto Sans KR", sans-serif;
   letter-spacing: -0.02em;
@@ -40,7 +40,7 @@ p {
 .card {
   max-width: 540px;
   padding: 20px;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .card-user, .card-content {
