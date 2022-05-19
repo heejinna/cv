@@ -14,9 +14,9 @@ a {
 
 .landing {
   background-image: url("./assets/img-bg.jpg");
-  background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .landing-title {
@@ -62,7 +62,7 @@ a {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #FFC82C;
+  background-color: #ffc82c;
 }
 
 .banner-title a {
@@ -105,7 +105,7 @@ a {
     font-size: 50px;
     text-align: center;
   }
-  
+
   .landing-link {
     width: 180px;
     height: 56px;
