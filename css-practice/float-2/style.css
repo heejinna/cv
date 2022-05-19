@@ -4,35 +4,35 @@
 }
 
 body {
-  background-color: #e5e5e5;
-  height: 100vh;
   font-family: "Noto Sans KR", sans-serif;
+  height: 100vh;
+  background-color: #e5e5e5;
   letter-spacing: -0.02em;
 }
 
 h1 {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.25;
   color: #1f2d3d;
-  line-height: 20px;
 }
 
 strong {
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.42857143;
   color: #afb3b9;
-  line-height: 20px;
 }
 
 p {
   font-size: 16px;
-  color: #79818b;
   line-height: 24px;
+  color: #79818b;
 }
 
 /* ▼ WHERE YOUR CODE BEGINS */
 .clearfix::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -43,19 +43,16 @@ p {
   background-color: #fff;
 }
 
-.card-user, .card-content {
+.card-user,
+.card-content {
   float: left;
 }
 
 .card-user {
   width: 44px;
   height: 44px;
-  border-radius: 50%;
   margin-right: 20px;
-}
-
-.card-content {
-  /* border: 1px solid #000; */
+  border-radius: 50%;
 }
 
 .card-content h1 {
